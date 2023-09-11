@@ -1,0 +1,38 @@
+IMPORTANT: All the file exporting processes have been disabled (commented out) so you don't accidentally override the provided ones.
+
+Keyboard shortcuts:
+===== PART A =====
+? => Show keyboard shortcuts
+0 => Switch to Part B
+D => Visualize differential coordinates
+- => Shrink
++ => Inflate
+* => Smart inflate
+Smart inflation performs 75% smoothing after inflating. It is advised that you increase the inflation coefficient.
+
+Sliders:
+S0 => shrinking coefficient
+S1 => inflation coefficient
+
+===== PART B =====
+? => Show keyboard shortcuts
+0 => Switch to Part A
+; => Generate SDF and force field
+C => Export SDF and force field
+Z => Import SDF and force field
+' => Display SDF and force field
+P => Show sphere
+X => Show axis aligned box
+M => Show 2nd mesh
+SPACE => Perform collision detection using only the meshes
+SHIFT + SPACE => Perform collision detection using the SDF
+E => Calculate collision response force
+T => Show/Hide auxiliary triangles
+L => Show/Hide auxiliary lines
+
+Sliders:
+S0 => probe point x coordinate
+S1 => probe point y coordinate
+S2 => probe point z coordinate
+S3 => sphere/box/mesh2 size
+S4 => SDF resolution (DON'T SET TOO LARGE)
